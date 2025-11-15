@@ -71,7 +71,7 @@ li {
     visibility:visible;
     width: 100%;
     max-width:1200px;
-    min-height: 4200px;
+    min-height: 4580px;
     position: absolute;
     top: 0;
     left:0;
@@ -95,17 +95,18 @@ ul {
 
 h1,
 h3 {
-  font-family: 'Gerstner-Bold';
-
+    font-family: 'Gerstner-Bold';
 }
+
 h1 { 
     font-size: 1em;
     color:#2a3d22;  
     mix-blend-mode: exclusion;
 }
+
 h2 {
     font-family: 'Gerstner-Italic';
-     font-size: .90em;
+    font-size: .90em;
     letter-spacing: 1px;
     color:#10110f;
     mix-blend-mode: difference;
