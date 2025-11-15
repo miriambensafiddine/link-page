@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: 'Gerstner-Bold';
+  font-style:normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(font/GerstnerBQ-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Gerstner-Italic';
+  font-style:italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(font/GerstnerBQ-Italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Gerstner-Light';
+  font-style:normal;
+  font-weight:400;
+  font-display: swap;
+  src: url(font/GerstnerBQ-Light.woff2) format('woff2');
+  
+}
+/* Responsive typography using fluid scaling */
+html {
+    font-size: calc(12px + 0.390625vw);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    max-width: 1200px;
+  min-height: 4000px;
+    background-color:#040504;
+    padding:0;
+    margin:0;
+}
+header{
+  margin:0 auto;
+  width:100vw;
+  padding:8px 0 8px 8px;
+  background: rgba(255, 255, 255, 0.189);
+  border-radius: 0 0 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top:0;
+  z-index: 2;
+
+
+}
+ul, li{
+  list-style: none;
+}
+.bg-mask{
+   /* background-image:  url('/img/miriam-bensafiddine.jpeg'),url('/img/bg-mask.png');*/
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    visibility:visible;
+    width: 100%;
+    max-width:1200px;
+    min-height: 4556px;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 0;
+    padding:0;  
+}
+
+img{
+    width: 100%;
+    height: auto;
+    padding:0;
+    margin:0 auto; 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1,
+h3 {
+  font-family: 'Gerstner-Bold';
+
+}
+h1{ 
+  padding-top:1rem;
+  color:#2a3d22;  
+  mix-blend-mode: exclusion;
+}
+h2{
+  font-family: 'Gerstner-Italic';
+  letter-spacing: 1.3px;
+color:#10110f;
+ mix-blend-mode: difference;
+}
+
+p {
+  font-family: 'Gerstner-Light';
+}
+
+a{
+    color:inherit;
+    text-decoration: underline;  
+    transition: all 0.3 ease;
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+article {
+  padding:1rem;
+}
+
+footer{
+   display:block;
+    width:100vw;
+    font-size: .85em;
+    text-align: center;
+    padding:1rem;
+    background-color: #010500;
+    color:#5e894f;
+    position: relative;
+    margin:0;
+    left:0;
+    bottom: 0;
+    z-index: 3;
+}
+
+/* icons */
+.icon{
+  width:36px;
+  height:36px;
+  display:inline-block;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:auto;
+  padding:8px;
+  filter: hue-rotate(20deg)
+}
+
+#codepen {
+  background-image: url('icons/codepen.svg');
+}
+
+#codepen:hover {
+  background-image: url('icons/codepen_hover.svg');
+}
+#instagram {
+  background-image: url('icons/instagram.svg');
+  transition: all 0.9s ease;
+}
+#instagram:hover {
+ background-image: url('icons/instagram_hover.svg');
+}
+#facebook {
+  background-image: url('icons/facebook.svg');
+  transition: all 0.9s ease;
+}
+#facebook:hover {
+ background-image: url('icons/facebook_hover.svg');
+}
+#pinterest {
+  background-image: url('icons/pinterest.svg');
+   transition: all 0.9s ease;
+}
+#pinterest:hover {
+ background-image: url('icons/pinterest_hover.svg');
+}
+#github {
+  background-image: url('icons/github.svg');
+   transition: all 0.9s ease;
+}
+#github:hover {
+ background-image: url('icons/github_hover.svg');
+}
+#soundcloud {
+  background-image: url('icons/soundcloud.svg');
+  transition: all 0.9s ease;
+}
+#soundcloud:hover {
+ background-image: url('icons/soundcloud_hover.svg');
+}
+#youtube {
+  background-image: url('icons/youtube.svg');
+   transition: all 0.9s ease;
+}
+#youtube:hover {
+ background-image: url('icons/youtube_hover.svg');
+}
+#linkedin {
+  background-image: url('icons/linkedin.svg');
+}
+#linkedin:hover {
+ background-image: url('icons/linkedin_hover.svg');
+  transition: all 0.9s ease;
+}
+#envelop {
+  background-image: url('icons/envelop.svg');
+  transition: all 0.3s ease;
+}
+#envelop:hover{
+   background-image: url('icons/envelop_hover.svg');
+}
+#link{
+  background-image: url('icons/link.svg');
+}
+#link:hover{
+   background-image: url('icons/link_hover.svg');
+}
+.space{
+  height:300px;
+}
+
+hr{
+  border-color: #5e894f;
+  margin-top:.8rem;
+  margin-bottom:1.8rem;
+}
+pre{
+    color:#304629; 
+    overflow-x:hidden; 
+    font-size:10px;
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+.flex-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap:3rem;
+}
+.box1, .box2{
+  color: #000000;
+  padding: 2rem;
+  flex: 1 1 300px;
+  max-width: 400px;
+  margin:auto;
+  background: rgba(218, 223, 219, 0.523);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #5e894f;
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px){
+  .flex-container{
+    justify-content: space-evenly;
+  }
+  .box1{
+    margin-left:1rem;
+    max-width:600px;
+  }
+  .box2{
+    margin:auto;
+  }
+
+ h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
+

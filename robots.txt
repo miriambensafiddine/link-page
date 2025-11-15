@@ -1,0 +1,12 @@
+
+User-agent: *
+Allow: /
+
+# Allow all images
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+
+Sitemap: https://miriambensafiddine.github.io/sitemap.xml
