@@ -1,0 +1,13 @@
+/mitt-projekt-repo
+├── .gitignore           # (Se nedan)
+├── README.md            # Dokumentation av projektet
+├── index.html           # Huvudfil
+├── /assets              # Statiska tillgångar
+│   ├── /css             # All stilmall
+│   ├── /js              # Script (Paper.js, GSAP etc.)
+│   ├── /img             # Optimerade bilder
+│   └── /video           # Komprimerade eller externa länkar (LFS)
+├── /cases               # Dina separata case-studier
+│   ├── /fiktiva-appen
+│   └── /matte-j
+└── /archive             # För äldre versioner/skisser (valfritt)

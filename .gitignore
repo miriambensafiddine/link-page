@@ -1,0 +1,31 @@
+# Operativsystem
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editorer / IDE
+.vscode/
+.idea/
+*.swp
+
+# Dependencies / Pakethantering
+node_modules/
+dist/
+build/
+
+# Webb / Loggar
+*.log
+npm-debug.log*
+yarn-debug.log*
+.eslintcache
+
+# Design / Assets (valfritt)
+# Om du inte vill att stora råfiler (t.ex. Photoshop/After Effects) ska ligga i repot:
+*.psd
+*.ai
+*.aep
+
+# Känslig data
+.env
+.env.local
+keys.json

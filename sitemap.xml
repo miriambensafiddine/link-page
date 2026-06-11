@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- högst prio -->
+  <url>
+    <loc>https://miriambensafiddine.se/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- specifika case-studier -->
+  <url>
+    <loc>https://miriambensafiddine.se/cases/fiktiva-appen/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Om du har en undersida för Matte J eller liknande arbete -->
+  <url>
+    <loc>https://miriambensafiddine.se/cases/matte-j-projekt/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

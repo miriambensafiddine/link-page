@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+2. COOKIE-POLICY
+-------------------------------------------------------------------------------
+Cookie-policy för miriambensafiddine.se
+
+Denna webbplats använder cookies för att förbättra din användarupplevelse och 
+för att webbplatsen ska fungera korrekt.
+
+Vad är en cookie?
+En cookie är en liten textfil som sparas på din dator, telefon eller surfplatta 
+när du besöker en webbplats.
+
+Vilka typer av cookies använder vi?
+
+* Nödvändiga cookies: Dessa cookies är strikt nödvändiga för att webbplatsen 
+  ska fungera rent tekniskt (t.ex. för sidnavigering eller säkerhetsfunktioner). 
+  De går inte att stänga av.
+
+* Analys och prestanda (Google Analytics): Vi använder Google Analytics, en 
+  webbanalystjänst som tillhandahålls av Google Ireland Limited, för att förstå 
+  hur besökare interagerar med vår webbplats. Detta hjälper oss att förbättra 
+  sidans design, innehåll och SEO.
+  Google Analytics placerar cookies på din enhet för att samla in information 
+  om ditt besök, till exempel vilka sidor du läser, hur länge du stannar på 
+  sidan och vilken typ av enhet eller webbläsare du använder.
+  - IP-anonymisering: Vi har aktiverat IP-anonymisering. Det innebär att din 
+    IP-adress förkortas och anonymiseram inom EU/EES innan den sparas på Googles 
+    servrar, vilket gör att informationen inte kan kopplas direkt till dig som 
+    individ.
+  - Hantera eller blockera: Om du inte vill att din data ska samlas in av 
+    Google Analytics kan du antingen tacka nej till analys-cookies i vår 
+    cookie-banner, eller installera webbläsartillägget Google Analytics 
+    Opt-out Browser Add-on.
+
+* Tredjepartscookies (Inbäddade videor från YouTube): Vi använder YouTube för 
+  att visa videoinnehåll på vår webbplats. När du besöker en sida som 
+  innehåller en inbäddad YouTube-video kan YouTube (tillhandahållet av Google 
+  Ireland Limited) placera cookies på din enhet. Dessa cookies används bland 
+  annat för att:
+  - Komma ihåg dina spelarinställningar (exempelvis volym och videokvalitet).
+  - Samla in statistik om hur videon spelas upp.
+  - Spåra ditt surfmönster, vilket Google kan använda för att visa anpassad 
+    reklam på andra plattformar (om du inte har blockerat spårningscookies).
+  Du kan förhindra dessa cookies genom att ställa in din webbläsare på att 
+  blockera tredjepartscookies, eller genom att neka dem i vår cookie-banner.
+
+Hur du hanterar cookies
+Du kan själv ställa in din webbläsare så att den blockerar cookies eller varnar 
+dig när en cookie skickas. Om du väljer att blockera nödvändiga cookies kan 
+vissa delar av webbplatsen sluta fungera som de ska.

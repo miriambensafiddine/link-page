@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+:root {
+    --bg-color: #efefef;
+    --text-color:#333333;
+    --accent-color: #333333;
+    --underline-color: #fb5151;
+    --grid-gap: 2rem;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  /* =========================================
+     GLOBAL STYLES (MOBILE FIRST)
+     ========================================= */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%; 
+    min-height: 100vh;
+  }
+  
+  a {
+    color: currentColor;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+  }
+
+  /* Mobil först: Understrykning är alltid synlig*/
+  a:not(.icon)::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: var(--underline-color);
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(1); /* Alltid synlig på mobil */
+    transition: transform .3s ease-in-out;
+  }
+
+  /* Dölj den egna understrykningen specifikt i cookie-modalen */
+  .cookie-modal a::before {
+    display: none;
+  }
+
+  .cv-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr; /* Mobil: 1 kolumn */
+    gap: var(--grid-gap);
+    padding: 1rem; /* Lite mindre padding på mobil */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* HEADER */
+  header {
+    grid-column: 1 / -1;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid var(--text-color);
+    padding-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-variation-settings: 'wght' 800;
+    font-size: clamp(3rem, 6vw, 5rem);
+    letter-spacing: -0.04em;
+    margin: 0 0 0.5rem 0;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+    
+  .subtitle {
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .caps {
+    text-transform: uppercase;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    transform: scale(1.0);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+  }
+    
+  #codepen { background-image: url('assets/icons/codepen.svg'); }
+  #instagram { background-image: url('assets/icons/instagram.svg'); }
+  #linkedin { background-image: url('assets/icons/linkedin.svg'); }
+  #pinterest { background-image: url('assets/icons/pinterest.svg'); }
+
+  /* SECTIONS (Mobil) */
+  .section {
+    display: contents; 
+  }
+
+  .section-header, .section-content, .grid-item {
+    grid-column: 1 / -1; /* Mobil: allt tar upp hela bredden */
+  }
+
+  .section-header {
+    border-top: 1px solid #838282;
+    padding-left: 8px;
+    padding-top: 2rem;
+    margin-top: 1rem;
+  }
+
+  h2 {
+    font-variation-settings: 'wght' 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: static; /* Mobil: ingen sticky rubrik */
+    margin-bottom: 1rem;
+    margin-top: 16px;
+  }
+
+  .section-content {
+    border-top: 1px solid #838282;
+    
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  
+  article {
+    padding-left: 8px;
+  }
+
+  /* PROFILE TEXT */
+  .profile-intro {
+    font-size: clamp(1.5rem, 3vw, 2rem); 
+    font-variation-settings: 'wght' 300;
+    line-height: 1.35;
+    margin: 0 0 3rem 0;
+    max-width: 95%;
+    letter-spacing: -0.02em;
+    padding-left: 8px;
+  }
+  .profile-img{
+    background: url('assets/img/miriam-bensafiddine-dithered.webp'),#8e8b8c;
+   mix-blend-mode: multiply;
+    background-position: -170px bottom ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:60vw;
+  }
+  .profile-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 2rem;
+    padding-left: 8px;
+  }
+
+  .stat-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .stat-label {
+    font-variation-settings: 'wght' 600;
+    font-size: 0.75rem;
+    color: #666;
+    letter-spacing: 0.05em;
+  }
+
+  .stat-value {
+    font-variation-settings: 'wght' 400;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.4;
+  }
+
+  /* EXPERIENCE & EDUCATION (Mobil) */
+  .grid-item {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobil: 1 kolumn */
+    gap: 0.5rem; /* Mindre gap på mobil */
+    margin-bottom: 3rem;
+  }
+
+  .item-meta h3, h3 {
+    margin: 0;
+    font-variation-settings: 'wght' 800;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+
+  .item-meta .role, .role {
+    font-variation-settings: 'wght' 600;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 1rem 0;
+    color: var(--accent-color);
+    font-size: 0.95rem;
+  }
+
+  .item-desc li {
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .item-desc li::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"><path d="M2 8h12M10 4l4 4-4 4" stroke="%23FF3300" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    transform:rotate(90deg);
+    background-image: url('assets/img/shape-04.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 1em;
+  }
+
+  /* MEDIA & VIDEO (Mobil) */
+  img, video {
+    width: 100%;
+    max-width: 300px;
+    margin:0;
+    border-radius: 8px;
+  }
+
+  .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .play-btn {
+    display: block; /* Visas alltid på touch/mobila enheter som standard */
+    cursor: pointer;
+    background: var(--bg-color);
+    color: #8b8a8a;
+    border: .5px solid rgb(185, 185, 185);
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  /* SKILLS GRID (Mobil) */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobil: 1 kolumn */
+    gap: 2rem;
+  }
+
+  .skill-group h4, h4 {
+    margin: 0 0 0.5rem 0;
+    font-variation-settings: 'wght' 800;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  .skill-group p {
+    font-variation-settings: 'wght' 400;
+    font-size: 0.95rem;
+    color: #444;
+  }
+/* =========================================
+     CONTACT FORM
+     ========================================= */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form-group label {
+    font-variation-settings: 'wght' 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #555;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #b3b3b3;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--text-color);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+
+  /* Hover & Fokus effekter */
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
+  }
+
+  .contact-form button[type="submit"] {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+  
+    background: var(--bg-color);
+    color: #636363;
+    border: .5px solid rgb(185, 185, 185);
+    padding: 8px 24px;
+    border-radius: 20px;
+  }
+  .contact-form button:hover{
+    background-image: radial-gradient(#fefbfc 0%, #e1dfdf 100%);
+  }
+  
+ 
+
+  /* Begränsa bredden på formuläret på större skärmar */
+  @media (min-width: 768px) {
+    .contact-form {
+      max-width: 80%; 
+    }
+  }
+  /* FOOTER & COOKIES */
+  .site-footer {
+    position: relative;
+    min-height: 600px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    overflow: hidden;
+  }
+
+  #footer-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: luminosity;
+    z-index: -100;
+  }
+
+  .footer-content {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 600px;
+    z-index: -2;
+    padding: 2rem;
+    pointer-events: none;
+    text-align: right;
+  }
+
+  .footer-content p {
+    margin: 0;
+    font-variation-settings: 'wght' 300;
+    font-size: 0.70rem;
+    color: #555;
+    z-index: 2;
+  }
+
+  .footer-content a {
+    pointer-events: auto;
+  }
+
+  #cookie-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+  }
+
+  #cookie-overlay.cookie-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .cookie-modal {
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+    color: #292929;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    transform: translateY(0);
+    transition: transform 0.4s ease;
+  }
+
+  #cookie-overlay.cookie-hidden .cookie-modal {
+    transform: translateY(20px);
+  }
+
+  .cookie-modal h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .cookie-modal p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #2d2c2c;
+    margin-bottom: 20px;
+  }
+
+  .cookie-modal a {
+    color: rgb(255, 68, 0);
+    text-decoration: none;
+  }
+
+  .cookie-modal a:hover {
+    text-decoration: underline;
+  }
+
+  .cookie-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+
+  .cookie-option label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  .cookie-option input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #0f1b28;
+    cursor: pointer;
+  }
+
+  .cookie-option input:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  .cookie-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+  }
+
+  .cookie-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  .btn-primary:hover {
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color:var(--text-color);
+    border: 1px solid #555 !important;
+  }
+
+  .btn-secondary:hover {
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+  }
+
+  /* =========================================
+     DESKTOP LAYOUT (MEDIA QUERIES)
+     ========================================= */
+  @media (min-width: 768px) {
+    .cv-container {
+      grid-template-columns: 3fr 7fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
+      padding: 2rem;
+    }
+    
+    .section-header {
+      grid-column: 1; /* Rubriker till vänster */
+      margin-top: 0;
+      padding-top: 0;
+    }
+    
+    .section-content {
+      grid-column: 2; /* Innehåll till höger */
+    }
+
+    h2 {
+      position: sticky; /* Sticky aktiveras endast på desktop */
+      top: 2rem;
+      margin-bottom: 0px;
+    }
+    
+    .grid-item {
+      grid-template-columns: 1fr; /* Info + Innehåll på samma rad */
+      gap: 2rem;
+    }
+    
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr); /* Skill-block bredvid varandra */
+     padding-bottom: 1rem;;
+    }
+    .skill-group img{
+       margin-bottom: 1rem;
+    }
+
+    video, img {
+      width: 300px;
+    }
+    .video-wrapper{
+      margin-bottom: 1rem;
+    }
+  }
+
+  /* =========================================
+     HOVER & MOUSE EFFECTS (Enheter med muspekare)
+     ========================================= */
+  @media (hover: hover) and (pointer: fine) {
+    
+    /* Återställ länkarna till att vara "dolda" som standard för att tillåta hover-animationen */
+    a:not(.icon)::before {
+      transform-origin: right;
+      transform: scaleX(0);
+    }
+
+    /* Visa understrykningen vid hover/fokus */
+    a:not(.icon):hover::before,
+    a:focus-visible:not(.icon)::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+
+    .icon:hover {
+      transform: scale(1.3);
+    }
+
+    /* På enheter med mus har vi video-hover via JS, dölj knappen */
+    .play-btn {
+      display: none;
+    }
+  }

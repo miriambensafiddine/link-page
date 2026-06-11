@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+1. INTEGRITETSPOLICY (PRIVACY POLICY)
+-------------------------------------------------------------------------------
+Integritetspolicy för miriambensafiddine.se
+
+Vi värnar om din personliga integritet och strävar efter att alltid skydda dina 
+personuppgifter på bästa sätt. Denna integritetspolicy förklarar hur vi samlar 
+in och använder din personliga information.
+
+1. Personuppgiftsansvarig
+Miriam Bensafiddine, är 
+personuppgiftsansvarig för de personuppgifter som behandlas på denna webbplats.
+Kontakt: [Din e-postadress]
+
+2. Vilka uppgifter vi samlar in och varför
+Vi samlar endast in personuppgifter som du själv väljer att dela med oss 
+(t.ex. via kontaktformulär eller e-post). Dessa uppgifter används enbart för 
+att kunna besvara dina förfrågningar eller leverera den tjänst du efterfrågat.
+
+3. Hur länge vi sparar dina uppgifter
+Vi sparar dina personuppgifter endast så länge som det är nödvändigt för att 
+uppfylla de ändamål de samlades in för, eller så länge vi är skyldiga att 
+göra det enligt lag.
+
+4. Delning av information och tredjepartstjänster
+Vi säljer eller delar aldrig dina personuppgifter till tredje part i 
+marknadsföringssyfte. Uppgifter kan komma att delas med våra 
+personuppgiftsbiträden (t.ex. webbhotell) endast i syfte att drifta och 
+underhålla denna webbplats.
+
+* Tredjepartstjänster (Google Analytics): För att kunna analysera trafik och 
+  förbättra användarupplevelsen på vår webbplats delar vi anonymiserad data 
+  med Google via verktyget Google Analytics. Informationen som delas inkluderar 
+  generella användarmönster och teknisk data, men är krypterad och anonymiserad 
+  (via IP-maskering) så att du inte kan identifieras personligen. Googles 
+  behandling av denna data styrs av Googles egen integritetspolicy.
+
+5. Inbäddat innehåll från andra webbplatser (YouTube)
+Artiklar eller sidor på denna webbplats kan innehålla inbäddat innehåll i form 
+av videoklipp från YouTube. Inbäddat innehåll från andra webbplatser beter sig 
+precis på samma sätt som om besökaren hade besökt den andra webbplatsen.
+
+När du interagerar med en inbäddad YouTube-video överförs viss information till 
+YouTube (Google). Detta kan inkludera din IP-adress, teknisk information om din 
+webbläsare och information om att du har besökt vår specifika webbsida. Om du 
+samtidigt är inloggad på ditt Google-konto kan de koppla denna information till 
+din personliga profil. Vi har inte kontroll över den data som samlas in av 
+YouTube. För mer information om hur din data hanteras, vänligen se Googles 
+integritetspolicy.
+
+6. Dina rättigheter
+Du har rätt att begära utdrag av de uppgifter vi har om dig, samt begära att 
+vi rättar eller raderar dessa uppgifter. Kontakta oss på [Din e-postadress] 
+om du vill utöva dina rättigheter.
