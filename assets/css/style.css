@@ -168,7 +168,7 @@
     padding-left: 8px;
   }
   .profile-img{
-    background: url('/assets/img/miriam-bensafiddine-dithered.webp'),#8e8b8c;
+    background: url('/assets/img/miriam-bensafiddine-dithered.webp');
    mix-blend-mode: multiply;
     background-position: -170px bottom ;
     background-repeat:no-repeat;
