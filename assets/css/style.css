@@ -115,10 +115,10 @@
     transition: all 0.4s ease-in-out;
   }
     
-  #codepen { background-image: url('assets/icons/codepen.svg'); }
-  #instagram { background-image: url('assets/icons/instagram.svg'); }
-  #linkedin { background-image: url('assets/icons/linkedin.svg'); }
-  #pinterest { background-image: url('assets/icons/pinterest.svg'); }
+  #codepen { background-image: url('/assets/icons/codepen.svg'); }
+  #instagram { background-image: url('/assets/icons/instagram.svg'); }
+  #linkedin { background-image: url('/assets/icons/linkedin.svg'); }
+  #pinterest { background-image: url('/assets/icons/pinterest.svg'); }
 
   /* SECTIONS (Mobil) */
   .section {
@@ -168,7 +168,7 @@
     padding-left: 8px;
   }
   .profile-img{
-    background: url('assets/img/miriam-bensafiddine-dithered.webp'),#8e8b8c;
+    background: url('/assets/img/miriam-bensafiddine-dithered.webp'),#8e8b8c;
    mix-blend-mode: multiply;
     background-position: -170px bottom ;
     background-repeat:no-repeat;
@@ -241,7 +241,7 @@
     width: 18px;
     height: 18px;
     transform:rotate(90deg);
-    background-image: url('assets/img/shape-04.svg');
+    background-image: url('/assets/img/shape-04.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
