@@ -29,3 +29,5 @@ yarn-debug.log*
 .env
 .env.local
 keys.json
+
+cv.html

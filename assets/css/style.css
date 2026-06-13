@@ -18,7 +18,12 @@
   body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Inter', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
+    background-color: #f9f8f5;
+    font-family: JetBrains Mono, SFMono-Regular, Consolas, monospace;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
     line-height: 1.4;
     margin: 0;
     padding: 0;
@@ -83,6 +88,7 @@
   }
 
   h1 {
+    font-family: 'Inter', sans-serif;
     font-variation-settings: 'wght' 800;
     font-size: clamp(3rem, 6vw, 5rem);
     letter-spacing: -0.04em;
@@ -137,6 +143,7 @@
   }
 
   h2 {
+    font-family: 'Inter', sans-serif;
     font-variation-settings: 'wght' 600;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -213,6 +220,7 @@
   }
 
   .item-meta h3, h3 {
+    font-family: 'Inter', sans-serif;
     margin: 0;
     font-variation-settings: 'wght' 800;
     font-size: 1.25rem;
