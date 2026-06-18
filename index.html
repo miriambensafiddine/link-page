@@ -240,7 +240,7 @@
         <!-- Formulär -->
         <div data-fs-success style="display: none;">Tack för ditt meddelande! Jag återkommer så snart jag kan.</div>
         <div data-fs-error style="display: none;">Något gick fel, vänligen kontrollera fälten och försök igen.</div>
-        <form class="contact-form">
+        <form class="contact-form" action="https://formspree.io/f/xojzoydw" method="POST">
           <div class="form-group">
           <label for="name">Namn</label>
           <input type="text" id="name" name="name" data-fs-field required />
@@ -467,9 +467,10 @@ document.querySelectorAll('.video-wrapper').forEach(wrapper => {
 </script>-->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>AOS.init();</script>
+
 <script>
   window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-  formspree('initForm', { formElement: '.contact-form', formId: 'mkoalzjd' });
+  formspree('initForm', { formElement: '#my-form', formId: 'xojzoydw' });
 </script>
 <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
