@@ -176,7 +176,7 @@
 
   /* PROFILE TEXT */
   .profile-intro {
-    font-size: clamp(1.5rem, 3vw, 2rem); 
+    font-size: clamp(1rem, 3vw, 1.5rem); 
     font-variation-settings: 'wght' 300;
     line-height: 1.35;
     margin: 0 0 3rem 0;
@@ -187,7 +187,7 @@
   .profile-img{
     background: url('/assets/img/miriam-bensafiddine-dithered.webp');
    
-    background-position: -170px 200px;
+    background-position: -170px 100px;
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: 780px;
@@ -571,7 +571,10 @@
       grid-template-columns: 3fr 7fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
       padding: 2rem;
     }
-    
+    .profile-img{
+    background-position: 0 280px;
+    width: 400px;
+    }
     .section-header {
       grid-column: 1; /* Rubriker till vänster */
       margin-top: 0;
