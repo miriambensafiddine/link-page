@@ -252,15 +252,15 @@
   }
 
   .item-meta h3, h3 {
-    
+    font-family: 'JetBrainsMono-Semibold',monospace;
     margin: 0;
-    font-variation-settings: 'wght' 800;
+    font-variation-settings: 'wght' 600;
     font-size: 1.25rem;
     text-transform: uppercase;
   }
 
   .item-meta .role, .role {
-    font-variation-settings: 'wght' 600;
+   font-family: 'JetBrainsMono-Semibold',monospace;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     padding: 1rem 0;
@@ -359,7 +359,7 @@
   }
 
   .form-group label {
-    font-variation-settings: 'wght' 600;
+   font-family: 'JetBrainsMono-Semibold',monospace;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -388,7 +388,7 @@
   }
 
   .contact-form button[type="submit"] {
-    font-family: 'JetBrainMono-Regular', monospace;
+   font-family: 'JetBrainsMono-Regular',monospace;
     align-self: flex-start;
     margin-top: 0.5rem;
   
@@ -402,7 +402,7 @@
   .contact-form button:hover{
    /* background-image: radial-gradient(#fefbfc 0%, #e1dfdf 100%);*/
    border: 1px solid var(--accent-color);
-   font-family: 'JetBrainMono-SemiBold', monospace;
+   font-family: 'JetBrainsMono-Semibold',monospace;
   }
   
  
