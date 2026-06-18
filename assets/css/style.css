@@ -176,7 +176,7 @@
 
   /* PROFILE TEXT */
   .profile-intro {
-    font-size: clamp(1rem, 3vw, 1.5rem); 
+    font-size: clamp(1rem, 2vw, 1.4rem); 
     font-variation-settings: 'wght' 300;
     line-height: 1.35;
     margin: 0 0 3rem 0;
