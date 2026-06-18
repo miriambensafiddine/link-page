@@ -181,7 +181,6 @@
 
   .section-content {
     border-top: 1px solid #838282;
-
     padding-top: 1rem;
     margin-bottom: 4rem;
   }
@@ -252,7 +251,8 @@
   }
 
   .item-meta h3, h3 {
-    font-family: 'JetBrainsMono-Semibold',monospace;
+    /*font-family: 'JetBrainsMono-Semibold',monospace;*/
+    font-family: 'Inter', sans-serif;
     margin: 0;
     font-variation-settings: 'wght' 600;
     font-size: 1.25rem;
@@ -327,6 +327,7 @@
   }
 
   .skill-group h4, h4 {
+    font-family: 'Inter',sans-serif;
     margin: 0 0 0.5rem 0;
     font-variation-settings: 'wght' 800;
     text-transform: uppercase;
@@ -388,13 +389,13 @@
   }
 
   .contact-form button[type="submit"] {
-   font-family: 'JetBrainsMono-Regular',monospace;
+   font-family: 'JetBrainsMono-Semibold',monospace;
     align-self: flex-start;
     margin-top: 0.5rem;
   
     background: var(--bg-color);
     color: #636363;
-    border: .5px solid rgb(110, 109, 109);
+    border: .5px solid rgb(154, 153, 153);
     padding: 8px 24px;
     border-radius: 8px;
     transition: all 0.3s ease-in-out;
@@ -449,7 +450,7 @@
 
   .footer-content p {
     margin: 0;
-    font-variation-settings: 'wght' 300;
+    font-variation-settings: 'wght' 400;
     font-size: 0.70rem;
     color: #555;
     z-index: 2;
