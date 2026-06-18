@@ -292,9 +292,8 @@
 
   /* MEDIA & VIDEO (Mobil) */
   img, video {
-    width: 100%;
+    width: 300px;
     height:auto;
-   
     margin:0;
     border-radius: 8px;
   }
