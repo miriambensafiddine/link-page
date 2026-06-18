@@ -292,7 +292,7 @@
 
   /* MEDIA & VIDEO (Mobil) */
   img, video {
-    width: 300px;
+    width:100%;
     height:auto;
     margin:0;
     border-radius: 8px;
@@ -303,7 +303,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:2rem 0;
+   
+    width:300px;
   }
   
   .play-btn {
@@ -350,7 +351,7 @@
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 2rem;
-    width: 100%;
+    width: 80%;
   }
 
   .form-group {
@@ -373,7 +374,7 @@
     font-size: 1rem;
     padding: 0.8rem;
     border: 1px solid #b3b3b3;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.4);
     color: var(--text-color);
     transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -402,8 +403,9 @@
   }
   .contact-form button:hover{
    /* background-image: radial-gradient(#fefbfc 0%, #e1dfdf 100%);*/
-   border: 1px solid var(--accent-color);
+   border: 1px solid black;
    font-family: 'JetBrainsMono-Semibold',monospace;
+   color:#000000;
   }
   
  
@@ -591,7 +593,7 @@
      ========================================= */
   @media (min-width: 768px) {
     .cv-container {
-      grid-template-columns: 3fr 7fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
+      grid-template-columns: 1 2fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
       padding: 2rem;
     }
     .profile-img{
