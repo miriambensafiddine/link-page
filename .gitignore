@@ -29,6 +29,6 @@ yarn-debug.log*
 .env
 .env.local
 keys.json
-
+/archive
 cv.html
 galleri.html
