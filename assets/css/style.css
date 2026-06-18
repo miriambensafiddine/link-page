@@ -203,12 +203,12 @@
   .profile-img{
     background: url('/assets/img/miriam-bensafiddine-dithered.webp');
    
-    background-position: -170px 100px;
+    background-position:-120px 100px;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: 600px;
-    width: 100%;
-    height: 600px;
+    background-size: 700px;
+    
+    height: 700px;
   }
   .profile-stats {
     display: grid;
