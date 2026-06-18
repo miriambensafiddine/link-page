@@ -206,9 +206,9 @@
     background-position: -170px 100px;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: 800px;
+    background-size: 600px;
     width: 100%;
-    height: 800px;
+    height: 600px;
   }
   .profile-stats {
     display: grid;
