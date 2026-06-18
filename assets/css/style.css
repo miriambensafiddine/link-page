@@ -4,7 +4,7 @@
     --bg-color: #efefef;
     --text-color:#333333;
     --accent-color: #333333;
-    --underline-color: #fb5151;
+    --underline-color: #fca04e;
     --grid-gap: 2rem;
   }
   
@@ -19,7 +19,7 @@
     background-color: var(--bg-color);
     color: var(--text-color);
     /*font-family: 'Inter', sans-serif;*/
-    background-color: #f9f8f5;
+    /*background-color: #f9f8f5;*/
     font-family: JetBrains Mono, SFMono-Regular, Consolas, monospace;
     font-size: 14px;
     color: #333;
@@ -48,7 +48,7 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
     margin-top: 8px;
     border-radius: 4px;
     background-color: var(--underline-color);
@@ -66,13 +66,16 @@
 
   .cv-container {
     max-width: 1100px;
+    width:100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr; /* Mobil: 1 kolumn */
     gap: var(--grid-gap);
     padding: 1rem; /* Lite mindre padding på mobil */
   }
-  
+  p{
+    line-break: normal;
+  }
   ul {
     list-style: none;
     padding: 0;
@@ -91,6 +94,7 @@
     font-family: 'Inter', sans-serif;
     font-variation-settings: 'wght' 800;
     font-size: clamp(3rem, 6vw, 5rem);
+    /*white-space: normal;*/
     letter-spacing: -0.04em;
     margin: 0 0 0.5rem 0;
     text-transform: uppercase;
@@ -98,6 +102,7 @@
   }
     
   .subtitle {
+    font-family: 'Inter', sans-serif;
     font-variation-settings: 'wght' 400;
     font-size: 1.5rem;
     color: var(--text-color);
@@ -137,7 +142,7 @@
 
   .section-header {
     border-top: 1px solid #838282;
-    padding-left: 8px;
+    padding-left:0;
     padding-top: 2rem;
     margin-top: 1rem;
   }
@@ -146,21 +151,26 @@
     font-family: 'Inter', sans-serif;
     font-variation-settings: 'wght' 600;
     font-size: 0.9rem;
+    color: #e1dfdf;
+    padding-left:8px;
+    margin-left:0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     position: static; /* Mobil: ingen sticky rubrik */
     margin-bottom: 1rem;
     margin-top: 16px;
+    background-color: var(--accent-color);
   }
 
   .section-content {
     border-top: 1px solid #838282;
-    
+
     padding-top: 1rem;
     margin-bottom: 4rem;
   }
   
   article {
+    display:block;
     padding-left: 8px;
   }
 
@@ -176,11 +186,13 @@
   }
   .profile-img{
     background: url('/assets/img/miriam-bensafiddine-dithered.webp');
-   mix-blend-mode: multiply;
-    background-position: -170px bottom ;
+   
+    background-position: -170px 200px;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size:60vw;
+    background-size: 780px;
+    width: 100%;
+    height: 780px;
   }
   .profile-stats {
     display: grid;
@@ -213,14 +225,17 @@
 
   /* EXPERIENCE & EDUCATION (Mobil) */
   .grid-item {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   /* display: grid;
     grid-template-columns: 1fr; /* Mobil: 1 kolumn */
-    gap: 0.5rem; /* Mindre gap på mobil */
-    margin-bottom: 3rem;
+   /* gap: 0.5rem; /* Mindre gap på mobil */
+   /* margin-bottom: 3rem;*/
   }
 
   .item-meta h3, h3 {
-    font-family: 'Inter', sans-serif;
+    
     margin: 0;
     font-variation-settings: 'wght' 800;
     font-size: 1.25rem;
@@ -265,11 +280,13 @@
     margin:0;
     border-radius: 8px;
   }
-
+  .img-wrapper,
   .video-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    padding:2rem 0;
   }
   
   .play-btn {
@@ -303,6 +320,9 @@
     font-variation-settings: 'wght' 400;
     font-size: 0.95rem;
     color: #444;
+  }
+  .social{
+    display:block;
   }
 /* =========================================
      CONTACT FORM
@@ -561,7 +581,10 @@
     .section-content {
       grid-column: 2; /* Innehåll till höger */
     }
-
+    .social{
+      display:flex;
+      justify-content: space-evenly;
+    }
     h2 {
       position: sticky; /* Sticky aktiveras endast på desktop */
       top: 2rem;
@@ -574,7 +597,7 @@
     }
     
     .skills-grid {
-      grid-template-columns: repeat(2, 1fr); /* Skill-block bredvid varandra */
+      grid-template-columns: repeat(1fr); 
      padding-bottom: 1rem;;
     }
     .skill-group img{
