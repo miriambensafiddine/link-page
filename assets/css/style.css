@@ -411,7 +411,7 @@
   /* Begränsa bredden på formuläret på större skärmar */
   @media (min-width: 768px) {
     .contact-form {
-      max-width: 80%; 
+      max-width: 70%; 
     }
   }
   /* FOOTER & COOKIES */
