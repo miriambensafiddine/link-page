@@ -388,6 +388,7 @@
   }
 
   .contact-form button[type="submit"] {
+    font-family: 'JetBrainMono-Regular', monospace;
     align-self: flex-start;
     margin-top: 0.5rem;
   
@@ -401,6 +402,7 @@
   .contact-form button:hover{
    /* background-image: radial-gradient(#fefbfc 0%, #e1dfdf 100%);*/
    border: 1px solid var(--accent-color);
+   font-family: 'JetBrainMono-SemiBold', monospace;
   }
   
  
