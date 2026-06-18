@@ -11,7 +11,14 @@
   * {
     box-sizing: border-box;
   }
-
+@font-face {
+  font-family: 'JetBrainsMono-Regular', monospace;
+  src: url('/assets/fonts/JetBrainsMono-Regular.woff2') format("woff2");
+}
+@font-face {
+  font-family: 'JetBrainsMono-Semibold', monospace;
+  src: url('/assets/fonts/JetBrainsMono-SemiBold.woff2') format("woff2");
+}
   /* =========================================
      GLOBAL STYLES (MOBILE FIRST)
      ========================================= */
@@ -20,7 +27,7 @@
     color: var(--text-color);
     /*font-family: 'Inter', sans-serif;*/
     /*background-color: #f9f8f5;*/
-    font-family: JetBrains Mono, SFMono-Regular, Consolas, monospace;
+    font-family: 'JetBrainsMono-Regular', SFMono-Regular, Consolas, monospace;
     font-size: 14px;
     color: #333;
     font-weight: 400;
@@ -37,8 +44,8 @@
   }
   
   a {
+    font-family: 'JetBrainsMono-SemiBold',monospace;
     color: currentColor;
-    font-weight: 600;
     position: relative;
     text-decoration: none;
   }
@@ -307,7 +314,7 @@
     border: .5px solid rgb(185, 185, 185);
     padding: 4px 12px;
     border-radius: 8px;
-    font-weight: 600;
+   font-family: 'JetBrainsMono-SemiBold',monospace;
     font-size: 1.2rem;
     margin: 1rem 0;
   }
@@ -547,12 +554,13 @@
   }
 
   .cookie-buttons button {
+    font-family: 'JetBrainsMono-SemiBold',monospace;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
     font-size: 0.95rem;
     cursor: pointer;
-    font-weight: bold;
+    
     transition: all 0.2s;
   }
 
