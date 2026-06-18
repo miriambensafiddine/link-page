@@ -30,5 +30,5 @@ yarn-debug.log*
 .env.local
 keys.json
 /archive
-cv.html
+/archive/cv.html
 galleri.html
