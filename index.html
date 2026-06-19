@@ -240,10 +240,12 @@
         <!-- Formulär -->
         <div data-fs-success style="display: none;">Tack för ditt meddelande! Jag återkommer så snart jag kan.</div>
         <div data-fs-error style="display: none;">Något gick fel, vänligen kontrollera fälten och försök igen.</div>
+        
         <form class="contact-form" action="https://formspree.io/f/xojzoydw" method="POST">
           <div class="form-group">
           <label for="name">Namn</label>
           <input type="text" id="name" name="name" data-fs-field required />
+          <input type="text" name="_gotcha" style="display:none" />
           <label for="email">E-post</label>
           <input type="email" id="email" name="email" data-fs-field required />
           <span data-fs-error="email" style="color: red;"></span>
