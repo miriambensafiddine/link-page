@@ -116,7 +116,17 @@
     text-transform: uppercase;
     letter-spacing: 0.02em;
   }
-
+figcaption{
+  font-family: 'JetBrainsMono-Regular', monospace;
+  font-weight: 300;
+  display: block;
+  text-align: right;
+  font-size: .70em;
+  border:1px solid black;
+  border-top:transparent;
+  padding:.5rem;
+  border-radius:0px 0 4px 4px;
+}
   .caps {
     text-transform: uppercase;
   }
@@ -160,28 +170,27 @@
   .section-header {
     border-top: 1px solid #838282;
     padding-left:0;
-    padding-top: 2rem;
+   padding-top: 2rem;
     margin-top: 1rem;
   }
 
-  h2 {
+  h2,h3 {
     font-family: 'Inter', sans-serif;
-    font-variation-settings: 'wght' 600;
+    font-variation-settings: 'wght' 700;
     font-size: 0.9rem;
-    color: #e1dfdf;
-    padding-left:8px;
+    color: var(--text-color);
     margin-left:0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     position: static; /* Mobil: ingen sticky rubrik */
     margin-bottom: 1rem;
     margin-top: 16px;
-    background-color: var(--accent-color);
+   /*background-color: var(--accent-color);
+   width:360px;*/
   }
 
   .section-content {
     border-top: 1px solid #838282;
-    padding-top: 1rem;
     margin-bottom: 4rem;
   }
   
@@ -189,26 +198,28 @@
     display:block;
     padding-left: 8px;
   }
-
+.flex{
+  display:block;
+}
   /* PROFILE TEXT */
   .profile-intro {
-    font-size: clamp(1rem, 2vw, 1.4rem); 
+    font-size: clamp(.9rem, 2vw, 1.2rem); 
     font-variation-settings: 'wght' 300;
     line-height: 1.35;
     margin: 0 0 3rem 0;
     max-width: 95%;
     letter-spacing: -0.02em;
-    padding-left: 8px;
+    padding-left: 4px;
   }
   .profile-img{
     background: url('/assets/img/miriam-bensafiddine-dithered.webp');
-   
-    background-position:-120px 100px;
+  
+    background-position:center;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: 700px;
+    background-size: 300px;
     
-    height: 700px;
+    height: 300px;
   }
   .profile-stats {
     display: grid;
@@ -240,17 +251,24 @@
   }
 
   /* EXPERIENCE & EDUCATION (Mobil) */
-  .grid-item {
+  .grid-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+    }
+  /*.grid-item {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row;*/
    /* display: grid;
     grid-template-columns: 1fr; /* Mobil: 1 kolumn */
    /* gap: 0.5rem; /* Mindre gap på mobil */
    /* margin-bottom: 3rem;*/
-  }
+  
 
-  .item-meta h3, h3 {
+  .item-meta  {
     /*font-family: 'JetBrainsMono-Semibold',monospace;*/
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -266,28 +284,7 @@
     padding: 1rem 0;
     color: var(--accent-color);
     font-size: 0.95rem;
-  }
-
-  .item-desc li {
-    margin-bottom: 0.75rem;
-    position: relative;
-    padding-left: 1.5rem;
-    padding-top: 1.5rem;
-  }
-
-  .item-desc li::before {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"><path d="M2 8h12M10 4l4 4-4 4" stroke="%23FF3300" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    transform:rotate(90deg);
-    background-image: url('/assets/img/shape-04.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    left: 0;
-    top: 1em;
+    max-width:300px;
   }
 
   /* MEDIA & VIDEO (Mobil) */
@@ -295,31 +292,19 @@
     width:100%;
     height:auto;
     margin:0;
-    border-radius: 8px;
+    border:1px solid black;
+    border-radius:8px 8px 0  0;
+    width: 100%;
   }
   .img-wrapper,
   .video-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
    
     width:300px;
   }
   
-  .play-btn {
-    display: block; /* Visas alltid på touch/mobila enheter som standard */
-    cursor: pointer;
-    background: var(--bg-color);
-    color: #8b8a8a;
-    border: .5px solid rgb(185, 185, 185);
-    padding: 4px 12px;
-    border-radius: 8px;
-   font-family: 'JetBrainsMono-SemiBold',monospace;
-    font-size: 1.2rem;
-    margin: 1rem 0;
-  }
-
   /* SKILLS GRID (Mobil) */
   .skills-grid {
     display: grid;
@@ -349,10 +334,11 @@
   .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 2rem;
-    width: 80%;
-  }
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: auto;
+    width: 100%;
+}
 
   .form-group {
     display: flex;
@@ -361,7 +347,7 @@
   }
 
   .form-group label {
-   font-family: 'JetBrainsMono-Semibold',monospace;
+    font-family: 'JetBrainsMono-Semibold',monospace;
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -413,9 +399,31 @@
   /* Begränsa bredden på formuläret på större skärmar */
   @media (min-width: 768px) {
     .contact-form {
-      max-width: 70%; 
+      max-width: 100%; 
+    }
+    .grid-item{
+      margin: auto;
+    }
+    .grid-item p{
+      width: 100%;
+      margin-top: 1rem;
+    }
+    p{
+      margin: 0px;
+      padding: 0px;
+    }
+    .flex{
+      display: flex;
+      flex-direction: column;
+      width:768px;
+      flex-wrap: wrap;
+      
     }
   }
+    
+
+
+
   /* FOOTER & COOKIES */
   .site-footer {
     position: relative;
@@ -593,7 +601,7 @@
      ========================================= */
   @media (min-width: 768px) {
     .cv-container {
-      grid-template-columns: 1 2fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
+      grid-template-columns: 1fr 2fr; /* Desktop: 2 kolumner (Sidomeny + Innehåll) */
       padding: 2rem;
     }
     .profile-img{
@@ -604,6 +612,7 @@
       grid-column: 1; /* Rubriker till vänster */
       margin-top: 0;
       padding-top: 0;
+      
     }
     
     .section-content {
@@ -611,7 +620,11 @@
     }
     .social{
       display:flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .item-meta{
+      align-self:center;
     }
     h2 {
       position: sticky; /* Sticky aktiveras endast på desktop */
@@ -627,9 +640,6 @@
     .skills-grid {
       grid-template-columns: repeat(1fr); 
      padding-bottom: 1rem;;
-    }
-    .skill-group img{
-       margin-bottom: 1rem;
     }
 
     video, img {
