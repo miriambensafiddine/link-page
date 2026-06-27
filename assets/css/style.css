@@ -395,9 +395,7 @@ img:not(#hand, #cursor), video {
   border: 1px solid black;
   border-radius: 4px 4px 0 0;
 }
-.js-image{
-  justify-self: center;
-}
+
 .img-wrapper, 
 .video-wrapper {
   display: flex;

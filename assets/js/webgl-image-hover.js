@@ -9,11 +9,11 @@ class ImageHoverEffect {
     this.imageElement = imageElement;
     this.container = imageElement.closest('.img-wrapper-threejs') || imageElement.parentElement;
     
-    // Configuration
-    this.intensity = options.intensity || 0.3;
-    this.speed = options.speed || 0.03;
-    this.displacement = options.displacement || 0.2;
-    
+       // Configuration
+    this.intensity = options.intensity || 0.5;
+    this.speed = options.speed || 0.05;
+    this.displacement = options.displacement || 0.3;
+
     // State
     this.mouse = { x: 0, y: 0 };
     this.targetMouse = { x: 0, y: 0 };
