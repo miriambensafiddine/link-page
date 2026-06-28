@@ -419,7 +419,7 @@ img:not(#hand, #cursor), video {
   font-weight: 300;
   display: block;
   text-align: center;
-  font-size: .70em;
+  font-size: .90em;
   border: 1px solid var(--accent-color);
   border-top: transparent;
   padding: 1rem 0;
