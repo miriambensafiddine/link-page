@@ -8,10 +8,7 @@
   <link rel="canonical" href="https://miriambensafiddine.se" />
   <link rel="preconnect" href="https://miriambensafiddine.se">
   <link rel="dns-prefetch" href="https://miriambensafiddine.se">
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-  <link rel="dns-prefetch" href="https://api.formspree.io">
-  <link rel="preload" as="image" href="/assets/img/miriam-bensafiddine-dithered.webp">
+<!--favicon-->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-chrome-192x192.png">
@@ -105,10 +102,10 @@
     </div>
   </section>
 <p></p>
-  <section class="section">
+ <section class="section">
         <div class="profile-stats">
           <div class="stat-block" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
-            <ul>
+          <ul>
               <li class="caps stat-label">Tidigare Roller</li>
               <li>Art Director </li>
               <li>Digital Designer </li>
@@ -128,7 +125,7 @@
         </div>
   </section>
 
-  <section class="section">
+   <section class="section">
       <div class="section-header">
         <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">PROJEKT</h2>
       </div>
@@ -138,9 +135,9 @@
           <div class="proj-header">
             <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back" title="Gökbot är en Musiketikett" aria-label="Gökbot är en Musiketikett"><strong>Gökbot</strong></h3>
             <ul class="proj-list caps">
-              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/jansonligan" title="Jansonligan på Instagram" rel="noopener noreferrer">Jansonligan</a></h3></li>
-              <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><h3><a href="https://matte-j.se" title="Besök webbsidan" rel="noopener noreferrer">Matt€ J</a></h3></li>
-              <li data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/sthlm_inkasso" title="Sthlm Inkasso på Instagram" rel="noopener noreferrer">STHLM Inkasso</a></h3></li>
+              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/jansonligan" title="Jansonligan på Instagram">Jansonligan</a></h3></li>
+              <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><h3><a href="https://matte-j.se" title="Besök webbsidan">Matt€ J</a></h3></li>
+              <li data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/sthlm_inkasso" title="Sthlm Inkasso på Instagram">STHLM Inkasso</a></h3></li>
             </ul>
           </div>
           <ul class="proj-role-list">
@@ -151,18 +148,12 @@
             
           <div class="proj-gallery">
             <div class="img-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
-             <img 
-             src="/assets/img/matte-j.webp" 
-             width="300" 
-             height="605" 
-             alt="Matte J"
-             loading="lazy"
-             decoding="async">
-              <p class="bildtext matte-j"><a href="https://matte-j.se" title="Till hemsidan" rel="noopener noreferrer">matte-j.se</a>
+              <img src="/assets/img/matte-j.webp" width="300" height="605" alt="Matte J">
+              <p class="bildtext matte-j"><a href="https://matte-j.se" title="Till hemsidan">matte-j.se</a>
               </p>
             </div>
             <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back">
-              <video preload="none" width="300" height="300" muted playsinline loop style="aspect-ratio: 1/1; border:1px solid var(--accent-color);">
+              <video muted playsinline loop style="aspect-ratio: 1/1; border:1px solid var(--accent-color);">
                 <source src="/assets/mov/sthlm-inkasso_merch.webm" type="video/webm">
               </video>
               <div class="bildtext ascii-merch">STHLM Inkasso | ASCII merch<br>
@@ -175,10 +166,10 @@
           </div>
 
             <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
-              <video preload="none" width="300" height="300" muted playsinline loop style="border: 1px solid #ff7878;border-bottom:transparent;border-radius: 4px 4px 0 0;">
+              <video muted playsinline loop style="border: 1px solid #ff7878;border-bottom:transparent;border-radius: 4px 4px 0 0;">
                 <source src="/assets/mov/jansonligan_1-1.webm" type="video/webm">
               </video>
-              <p class="bildtext jansonligan"><a href='https://www.instagram.com/reel/Cy0PHh4NT45/?hl=af' rel="noopener noreferrer">'R.A.J.M'</a><br>
+              <p class="bildtext jansonligan"><a href='https://www.instagram.com/reel/Cy0PHh4NT45/?hl=af'>'R.A.J.M'</a><br>
               Jansonligan | Östblockarn | Franzoa<br>
               <small>
                 <span style="filter: invert(1);" class="hovra"></span>
@@ -191,7 +182,7 @@
               <video muted playsinline loop style="aspect-ratio: 1/1; border:1px solid var(--accent-color);">
                 <source src="/assets/mov/gokbot_sthlminkasso_300x300.webm" type="video/webm">
               </video>
-              <p class="bildtext sthlm-inkasso"><a href='https://open.spotify.com/artist/0LUyoyvvvUcs6fNHmdexlF?si=Ykj8dvyJTsiLh3pXY2FVdQ' title="STHLM INKASSO på Spotify" rel="noopener noreferrer">Sthlm inkasso</a> + gökbot<br>
+              <p class="bildtext sthlm-inkasso"><a href='https://open.spotify.com/artist/0LUyoyvvvUcs6fNHmdexlF?si=Ykj8dvyJTsiLh3pXY2FVdQ' title="STHLM INKASSO på Spotify">Sthlm inkasso</a> + gökbot<br>
                <small>
                 <span class="hovra"></span>
                 <span class="play-btn"></span> = spela animationen
@@ -203,7 +194,7 @@
           <div class="proj-header">
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">Studio Matiam</h3>
             <ul class="proj-list flex">
-              <li data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/studiomatiam" rel="noopener noreferrer" class="icon" id="instagram" title="Studio Matiam på Instagram" aria-label="Studio Matiam på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+              <li data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/studiomatiam" class="icon" id="instagram" title="Studio Matiam på Instagram" aria-label="Studio Matiam på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
             </ul>
           </div> 
           <ul class="proj-role-list">
@@ -211,27 +202,19 @@
           </ul>
           
           <div class="proj-gallery" id="studiomatiam">
-            <div class="video-wrapper media-filter" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
-             <video 
-             muted 
-             playsinline 
-             loop 
-             preload="none"
-             width="300"
-             height="300">
-              <source src="/assets/mov/studio-matiam.webm" type="video/webm">
-              <source src="/assets/mov/studio-matiam.mp4" type="video/mp4">
-             </video>
-            
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
+              <video muted playsinline loop class="media-filter">
+                <source src="/assets/mov/studio-matiam.webm" type="video/webm">
+              </video>
               <p class="bildtext studio-matiam">Studio Matiam - logotyp<br>
              <small>
               <span class="hovra"></span>
               <span class="play-btn"></span> = spela animationen
             </small>
-              </p>
+          </p>
             </div>
-            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="2200" data-aos-easing="ease-out-back">
-              <video muted playsinline loop preload="none" width="300" height="300">
+            <div class="video-wrapper hue" data-aos="fade-up" data-aos-duration="2200" data-aos-easing="ease-out-back">
+              <video muted playsinline loop>
                 <source src="/assets/mov/m_eyez.webm" type="video/webm">
               </video>
               <p class="bildtext m-type">Typsnittsdesign & Animation<br>"m-Type"<br>
@@ -245,9 +228,9 @@
           
 
             <ul class="proj-list flex">
-              <li data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back"><a href="https://www.facebook.com/livssthlm" rel="noopener noreferrer" class="icon" id="facebook" title="LIVS på Facebook" aria-label="LIVS på Facebook" style="margin-top:1rem;margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
-              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/livs_sthlm" rel="noopener noreferrer" class="icon" id="instagram" title="LIVS på Instagram" aria-label="LIVS på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
-                <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><small class="pil"><a href='https://whiteguide.com/se/sv/news/1804-krognytt-kvarterskrog-en-halv-trappa-ner-pa-livs' rel="noopener noreferrer">white guide</a></small></li>
+              <li data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back"><a href="https://www.facebook.com/livssthlm" class="icon" id="facebook" title="LIVS på Facebook" aria-label="LIVS på Facebook" style="margin-top:1rem;margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/livs_sthlm" class="icon" id="instagram" title="LIVS på Instagram" aria-label="LIVS på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+                <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><small class="pil"><a href='https://whiteguide.com/se/sv/news/1804-krognytt-kvarterskrog-en-halv-trappa-ner-pa-livs'>white guide</a></small></li>
             </ul>
           </div> 
           <ul class="proj-role-list">
@@ -261,11 +244,13 @@
             
             <div class="img-wrapper-threejs">
              
-              <img src="/assets/img/livs_scanner.webp" loading="lazy" decoding="async" class="js-image" width="300" height="535" alt="Typografidesign">
+              <img src="/assets/img/livs_scanner.webp" class="js-image" width="300" height="535" alt="Typografidesign">
+              
+             
             </div>
 
             <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back">
-              <video muted playsinline loop preload="none" width="300" height="300">
+              <video muted playsinline loop>
                 <source src="/assets/mov/kock.webm" type="video/webm">
               </video>
               <p class="bildtext">LIVS söker säker KOCK<br>
@@ -277,19 +262,17 @@
             </div>
 
             <div class="img-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
-              <img src="/assets/img/livsbar.webp"
-loading="lazy" decoding="async" width="300" height="214" alt="LIVS Öl & Vinbar Oberoende sortiment av Hantverksöl och Naturvin">
-              <p class="bildtext livsbar" title="Oberoende sortiment av Hantverksöl och Naturvin">LIVS Öl- & Vinbar <br><small>foto: <a href="https://www.hahastudio.se/" rel="noopener noreferrer">HAHA Studio</a></small></p>
+              <img src="/assets/img/livsbar.webp" width="300" height="214" alt="LIVS Öl & Vinbar Oberoende sortiment av Hantverksöl och Naturvin">
+              <p class="bildtext livsbar" title="Oberoende sortiment av Hantverksöl och Naturvin">LIVS Öl- & Vinbar <br><small>foto: <a href="https://www.hahastudio.se/">HAHA Studio</a></small></p>
             </div>
 
             <div class="img-wrapper" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-back">
-              <img src="/assets/img/fatol.jpg" 
-loading="lazy" decoding="async" width="300" alt="Öl på fat">
+              <img src="/assets/img/fatol.jpg" width="300" alt="Öl på fat">
               <p class="bildtext olmeny">Ölmeny</p>
             </div>
        
             <div class="video-wrapper" data-aos="fade-up" data-aos-duration="2200" data-aos-easing="ease-out-back">
-              <video muted playsinline loop preload="none" width="300" height="300">
+              <video muted playsinline loop>
                 <source src="/assets/mov/livs_lunch.webm" type="video/webm">
               </video>
               <p class="bildtext lunchreklam">'D e luuunch...'<br>
@@ -301,15 +284,16 @@ loading="lazy" decoding="async" width="300" alt="Öl på fat">
             </div>
 
             <div class="img-wrapper" data-aos="fade-up" data-aos-duration="2400" data-aos-easing="ease-out-back">
-              <img src="/assets/img/ostron_marennes.webp" loading="lazy" decoding="async" alt="Ostron" width="300" height="300" style="aspect-ratio: 1 / 1;">
+              <img src="/assets/img/ostron_marennes.webp" alt="Ostron" width="300" height="300" style="aspect-ratio: 1 / 1;">
               <p class="bildtext ostron">Ostron med Röda Vinbär</p>
             </div>
           </div>
-          <p class="pil" data-aos="fade-right" data-aos-duration="2800" data-aos-easing="ease-in-sine"><small><a href="https://se.pinterest.com/mirimalprojects/case-livs-%C3%B6lbar-matsal/" rel="noopener noreferrer" title="bilder om LIVS på Pinterest"> se fler bilder</a></small></p>
-      </div>
-  </section>
-    
-  <section class="section">
+          <p class="pil" data-aos="fade-right" data-aos-duration="2800" data-aos-easing="ease-in-sine"><small><a href="https://se.pinterest.com/mirimalprojects/case-livs-%C3%B6lbar-matsal/" title="bilder om LIVS på Pinterest"> se fler bilder</a></small></p>
+        </div>
+   
+    </section>
+
+    <section class="section">
     <div class="section-header" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
       <h2>FÖLJ</h2>
     </div>
@@ -317,14 +301,7 @@ loading="lazy" decoding="async" width="300" alt="Öl på fat">
       <article class="grid-item">
         <div class="item-meta">
           <div class="role" data-aos="fade-right" data-aos-duration="1300" data-aos-easing="ease-in-sine">
-             <a href="https://www.instagram.com/mirimalprojects/" 
-              class="icon" 
-              id="instagram"
-              title="Besök Instagram" 
-              aria-label="Miriam på Instagram - öppnas i nytt fönster"
-              rel="noopener noreferrer"
-              target="_blank">
-              </a> 
+             <a href="https://www.instagram.com/mirimalprojects/" class="icon" id="instagram" title="Instagram" aria-label="Besök min Instagram"></a>
           </div>
         </div>
       </article>
@@ -332,7 +309,7 @@ loading="lazy" decoding="async" width="300" alt="Öl på fat">
       <article class="grid-item">
         <div class="item-meta">
           <div class="role" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-sine">
-              <a href="https://www.linkedin.com/in/miriam-bensafiddine/" rel="noopener noreferrer" class="icon" id="linkedin" title="Linkedin" aria-label="Besök min Linkedin"></a>
+              <a href="https://www.linkedin.com/in/miriam-bensafiddine/" class="icon" id="linkedin" title="Linkedin" aria-label="Besök min Linkedin"></a>
           </div>
         </div>
       </article>
@@ -340,7 +317,7 @@ loading="lazy" decoding="async" width="300" alt="Öl på fat">
       <article class="grid-item">
         <div class="item-meta">
           <div class="role" data-aos="fade-right"  data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-back">
-           <a href="https://se.pinterest.com/mirimalprojects/" rel="noopener noreferrer" class="icon" id="pinterest" title="Pinterest" aria-label="Besök min Pinterest"></a>
+           <a href="https://se.pinterest.com/mirimalprojects/" class="icon" id="pinterest" title="Pinterest" aria-label="Besök min Pinterest"></a>
           </div>
         </div>
       </article>
@@ -351,37 +328,31 @@ loading="lazy" decoding="async" width="300" alt="Öl på fat">
     <div class="section-header" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
       <h2>Kontakt</h2>
     </div>
-
     <div class="section-content">
       <article class="grid-item" id="kontakt">
         <div class="item-meta">
-          <div data-fs-success>Tack för ditt meddelande! Jag återkommer så snart som möjligt.</div>
-          <div data-fs-error>Oj, något gick fel. Kontrollera dina uppgifter och försök igen.</div>
         
-          <form id="my-form" action="https://formspree.io/f/xojzoydw" method="POST">
-            <div class="form-group" role="group" aria-labelledby="email-label">
-              <label for="email" id="email-label">E-post <span aria-label="required">*</span></label>
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                required 
-                aria-describedby="email-error email-hint"
-                data-fs-field 
-              />
-              <small id="email-hint">Vi delar aldrig din e-post</small>
-              <span id="email-error" data-fs-error="email" role="alert" aria-live="polite"></span>
-            </div>
-            <label for="message">Meddelande</label>
-            <textarea id="message" name="message" required data-fs-field></textarea>
-            <span data-fs-error="message"></span>
-            <button type="submit" data-fs-submit-btn>Skicka</button>
-          </form>
-        </div>
-     
-      </article>
-    </div>
-  </section>
+        
+
+<div data-fs-success>Tack för ditt meddelande! Jag återkommer så snart som möjligt.</div>
+<div data-fs-error>Oj, något gick fel. Kontrollera dina uppgifter och försök igen.</div>
+
+<form id="my-form" action="https://formspree.io/f/xojzoydw" method="POST">
+ <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back" class="form-group">
+  <label for="email">E-post</label>
+  <input type="email" id="email" name="email" required data-fs-field />
+  <span data-fs-error="email"></span>
+
+  <label for="message">Meddelande</label>
+  <textarea id="message" name="message" required data-fs-field></textarea>
+  <span data-fs-error="message"></span>
+ </div>
+  <button type="submit" data-fs-submit-btn>Skicka</button>
+</form>
+</div>
+</article>
+</div>
+</section>
 </main> 
 
 <footer class="site-footer">
@@ -590,14 +561,12 @@ document.querySelectorAll('.video-wrapper').forEach(wrapper => {
   }
 });
 </script>
-<script 
-  src="https://unpkg.com/aos@next/dist/aos.js" 
-  defer
-  integrity="sha384-..." 
-  crossorigin="anonymous"
-></script>
-<script>
-  window.addEventListener('load', () => AOS.init());
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();
+AOS.init({
+easing: 'ease-in-out',
+disable: false,
+once: false });
 </script>
 <!-- ... other scripts ... -->
  <script>
