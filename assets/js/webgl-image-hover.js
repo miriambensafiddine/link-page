@@ -10,8 +10,8 @@ class ImageHoverEffect {
     this.container = imageElement.closest('.img-wrapper-threejs') || imageElement.parentElement;
     
        // Configuration
-    this.intensity = options.intensity || 0.5;
-    this.speed = options.speed || 0.05;
+    this.intensity = options.intensity || 0.2;
+    this.speed = options.speed || 0.02;
     this.displacement = options.displacement || 0.3;
 
     // State
@@ -182,12 +182,12 @@ class ImageHoverEffect {
 
 // Auto-initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
-  const livsImage = document.querySelector('img.js-image[src*="livs_scanner"]');
+  const livsImage = document.querySelector('img.js-image[src*="livs-scanner"]');
   if (livsImage) {
     new ImageHoverEffect(livsImage, {
       intensity: 0.02,
-      speed: 0.012,
-      displacement: 0.52
+      speed: 0.002,
+      displacement: 0.3
     });
   }
 });
