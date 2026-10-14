@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Designer specialiserad på rörlig grafik, front end-utveckling och visuell identitet. Stockholm-baserad designteknolog.">
+  <title>Miriam Bensafiddine | Digital Designer</title>
+  <link rel="canonical" href="https://miriambensafiddine.se" />
+  <link rel="preconnect" href="https://miriambensafiddine.se">
+  <link rel="dns-prefetch" href="https://miriambensafiddine.se">
+<!--favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicons/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon.ico">
+
+  
+  
+  <link rel="manifest" href="site.webmanifest">
+<!--css--> 
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <!-- Social Sharing / OG -->
+  <meta property="og:title" content="Miriam Bensafiddine | Digital Designer" />
+  <meta property="og:description" content="Creative Technologist | Interactive Motion Developer baserad i Stockholm" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://miriambensafiddine.se/" />
+  <meta property="og:site_name" content="Miriam Bensafiddine" />
+  <meta property="og:image" content="/assets/img/miriam-bensafiddine-dithered.webp" />
+  <!--apple-->
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/touch-icon-iphone-retina.png">
+
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Miriam Bensafiddine | Digital Designer">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <!-- JSON-LD Person Schema (address simplified for privacy) -->
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Miriam Bensafiddine",
+    "image": "/assets/img/miriam-bensafiddine-dithered.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Stockholm",
+      "addressRegion": "Stockholm",
+      "addressCountry": "Sweden"
+    },
+    "sameAs": [
+      "https://www.facebook.com/miriam.bensafiddine/",
+      "https://www.instagram.com/mirimalprojects/",
+      "https://www.linkedin.com/in/miriam-bensafiddine/",
+      "https://se.pinterest.com/mirimalprojects/",
+      "https://www.youtube.com/@mirimalprojects"
+    ]
+  }
+</script>
+<!-- ... other scripts ... -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- ... -->
+</head>
+
+<body class="loading">
+  <main class="cv-container">
+    <header>
+      <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out-back">Miriam</h1><h1 data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-out-back">Bensafiddine</h1>
+      <div class="subtitle" data-aos="fade-left" data-aos-duration="1400" data-aos-easing="ease-in-sine">
+        <span class="vertical">Digital Designer</span>
+        <span class="vertical">Creative Technologist</span>
+        Stockholm</div>
+    </header>
+    <section class="section">
+      <div class="section-header profile-img" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-back"><h2>Profil</h2>
+      </div>
+      <div class="section-content">
+        <h3 data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-out-back">Digital Designer | Creative Technologist </h3>
+        <p data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-out-back">
+          Kodande designer med dokumenterad erfarenhet av varumärkesutveckling och visuell kommunikation.</p><br>
+        <p data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-out-back">Drömmen är att samarbeta med brands som vågar sticka ut, bryta mönster och utmana det generiska. 
+        </p>
+        <br>
+        <p data-aos="fade-up" data-aos-duration="1800"><strong>Vad jag tillför:</strong></p>
+          <ul data-aos="fade-up" data-aos-duration="1900" class="proj-list">
+            <li class="list-bullet" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-back"><strong>Rörlig spetskompetens:</strong> Erfaren After Effects-användare med djup förståelse för timing, rytm och visuell storytelling.</li>
+            <li class="list-bullet" data-aos="fade-up" data-aos-duration="2100" data-aos-easing="ease-out-back"><strong>Interaktiv front-end-animation:</strong> GSAP och AOS för flytande, högpresterande webbupplevelser + jag experimenterar aktivt med WebGL och Three.js för att flytta gränserna för vad en vanlig webbsida kan göra.</li>
+          
+          </ul>
+         <br>
+         <p data-aos="fade-up" data-aos-duration="2300" data-aos-easing="ease-out-back">Just nu är jag tillgänglig för kortare projekt.</p>
+<br><br> <p data-aos="fade-right" data-aos-duration="2400" data-aos-easing="ease-out-back">
+          <span class="caps pil"><a href="#kontakt">Kontakt</a></span>
+         </p>
+    </div>
+  </section>
+<p></p>
+ <section class="section">
+        <div class="profile-stats">
+          <div class="stat-block" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
+          <ul>
+              <li class="caps stat-label">Tidigare Roller</li>
+              <li>Art Director </li>
+              <li>Digital Designer </li>
+              <li>Front End Developer</li>
+              <li>Motion Graphics Designer</li>
+            </ul>
+          </div>
+
+          <div class="stat-block" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back" >
+            <ul>
+              <li class="caps stat-label">Tjänster</li>
+              <li>Visuell Identitet & Branding </li>
+              <li>Rörlig Grafik & Animationer</li>
+              <li>Responsiva Webbsidor</li>
+            </ul>
+          </div>
+        </div>
+  </section>
+
+   <section class="section">
+      <div class="section-header">
+        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">PROJEKT</h2>
+      </div>
+      
+      <div class="section-content">
+        <div class="proj-grid">
+          <div class="proj-header">
+            <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back" title="Gökbot är en Musiketikett" aria-label="Gökbot är en Musiketikett"><strong>Gökbot</strong></h3>
+            <ul class="proj-list caps">
+              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/jansonligan" title="Jansonligan på Instagram">Jansonligan</a></h3></li>
+              <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><h3><a href="https://matte-j.se" title="Besök webbsidan">Matt€ J</a></h3></li>
+              <li data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-back"><h3><a href="https://instagram.com/sthlm_inkasso" title="Sthlm Inkasso på Instagram">STHLM Inkasso</a></h3></li>
+            </ul>
+          </div>
+          <ul class="proj-role-list">
+            <li><h4 data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-out-back">Digital Designer</h4></li>
+            <li><h4 data-aos="fade-up" data-aos-duration="1700" data-aos-easing="ease-out-back">Front End-utvecklare</h4></li>
+            <li><h4 data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">Social Media Manager</h4></li>
+          </ul>
+            
+          <div class="proj-gallery">
+            <div class="img-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
+              <img src="/assets/img/matte-j.webp" width="300" height="605" alt="Matte J">
+              <p class="bildtext matte-j"><a href="https://matte-j.se" title="Till hemsidan">matte-j.se</a>
+              </p>
+            </div>
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back">
+              <video muted playsinline loop style="aspect-ratio: 1/1; border:1px solid var(--accent-color);">
+                <source src="/assets/mov/sthlm-inkasso_merch.webm" type="video/webm">
+              </video>
+              <div class="bildtext ascii-merch">STHLM Inkasso | ASCII merch<br>
+              <small>
+                <span class="hovra"></span>
+                <span class="play-btn"></span> = spela animationen
+              </small>
+              </div>
+            </div>
+          </div>
+
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
+              <video muted playsinline loop style="border: 1px solid #ff7878;border-bottom:transparent;border-radius: 4px 4px 0 0;">
+                <source src="/assets/mov/jansonligan_1-1.webm" type="video/webm">
+              </video>
+              <p class="bildtext jansonligan"><a href='https://www.instagram.com/reel/Cy0PHh4NT45/?hl=af'>'R.A.J.M'</a><br>
+              Jansonligan | Östblockarn | Franzoa<br>
+              <small>
+                <span style="filter: invert(1);" class="hovra"></span>
+                <span style="filter: invert(1);" class="play-btn"></span> = spela animationen
+              </small>
+              </p>
+            </div>
+        
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-back">
+              <video muted playsinline loop style="aspect-ratio: 1/1; border:1px solid var(--accent-color);">
+                <source src="/assets/mov/gokbot_sthlminkasso_300x300.webm" type="video/webm">
+              </video>
+              <p class="bildtext sthlm-inkasso"><a href='https://open.spotify.com/artist/0LUyoyvvvUcs6fNHmdexlF?si=Ykj8dvyJTsiLh3pXY2FVdQ' title="STHLM INKASSO på Spotify">Sthlm inkasso</a> + gökbot<br>
+               <small>
+                <span class="hovra"></span>
+                <span class="play-btn"></span> = spela animationen
+               </small>
+              </p>
+            </div>
+          </div>
+           
+          <div class="proj-header">
+            <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">Studio Matiam</h3>
+            <ul class="proj-list flex">
+              <li data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/studiomatiam" class="icon" id="instagram" title="Studio Matiam på Instagram" aria-label="Studio Matiam på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+            </ul>
+          </div> 
+          <ul class="proj-role-list">
+            <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back">Digital Designer</li>
+          </ul>
+          
+          <div class="proj-gallery" id="studiomatiam">
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
+              <video muted playsinline loop class="media-filter">
+                <source src="/assets/mov/studio-matiam.webm" type="video/webm">
+              </video>
+              <p class="bildtext studio-matiam">Studio Matiam - logotyp<br>
+             <small>
+              <span class="hovra"></span>
+              <span class="play-btn"></span> = spela animationen
+            </small>
+          </p>
+            </div>
+            <div class="video-wrapper hue" data-aos="fade-up" data-aos-duration="2200" data-aos-easing="ease-out-back">
+              <video muted playsinline loop>
+                <source src="/assets/mov/m_eyez.webm" type="video/webm">
+              </video>
+              <p class="bildtext m-type">Typsnittsdesign & Animation<br>"m-Type"<br>
+             <small><span class="hovra"></span>
+              <span class="play-btn"></span> = spela animationen</small></p>
+            </div>
+          </div>
+        
+          <div class="proj-header">
+            <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">LIVS Ölbar & Matsal</h3>
+          
+
+            <ul class="proj-list flex">
+              <li data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back"><a href="https://www.facebook.com/livssthlm" class="icon" id="facebook" title="LIVS på Facebook" aria-label="LIVS på Facebook" style="margin-top:1rem;margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+              <li data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-out-back"><a href="https://www.instagram.com/livs_sthlm" class="icon" id="instagram" title="LIVS på Instagram" aria-label="LIVS på Instagram" style="margin-top:1rem; margin-right:1rem;padding:10px;line-height: 1.55;"></a></li>
+                <li data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back"><small class="pil"><a href='https://whiteguide.com/se/sv/news/1804-krognytt-kvarterskrog-en-halv-trappa-ner-pa-livs'>white guide</a></small></li>
+            </ul>
+          </div> 
+          <ul class="proj-role-list">
+           <li> <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-out-back" class="role">Medgrundare</h3></li>
+            <li><h3 data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back" class="role">Art Director </h3></li>
+            <li><h3 data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-out-back" class="role">Visuell kommunikatör</h3></li>
+            <li><h3 data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back" class="role">Nöjesansvarig</h3></li>
+          </ul>
+            
+          <div class="proj-gallery" id="livs">
+            
+            <div class="img-wrapper-threejs">
+             
+              <img src="/assets/img/livs_scanner.webp" class="js-image" width="300" height="535" alt="Typografidesign">
+              
+             
+            </div>
+
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-back">
+              <video muted playsinline loop>
+                <source src="/assets/mov/kock.webm" type="video/webm">
+              </video>
+              <p class="bildtext">LIVS söker säker KOCK<br>
+               <small>
+                <span class="hovra"></span>
+                <span class="play-btn"></span> = spela animationen
+               </small>
+              </p>
+            </div>
+
+            <div class="img-wrapper" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out-back">
+              <img src="/assets/img/livsbar.webp" width="300" height="214" alt="LIVS Öl & Vinbar Oberoende sortiment av Hantverksöl och Naturvin">
+              <p class="bildtext livsbar" title="Oberoende sortiment av Hantverksöl och Naturvin">LIVS Öl- & Vinbar <br><small>foto: <a href="https://www.hahastudio.se/">HAHA Studio</a></small></p>
+            </div>
+
+            <div class="img-wrapper" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-back">
+              <img src="/assets/img/fatol.jpg" width="300" alt="Öl på fat">
+              <p class="bildtext olmeny">Ölmeny</p>
+            </div>
+       
+            <div class="video-wrapper" data-aos="fade-up" data-aos-duration="2200" data-aos-easing="ease-out-back">
+              <video muted playsinline loop>
+                <source src="/assets/mov/livs_lunch.webm" type="video/webm">
+              </video>
+              <p class="bildtext lunchreklam">'D e luuunch...'<br>
+                <small>
+                  <span class="hovra"></span>
+                  <span class="play-btn"></span> = spela animationen
+                </small>
+              </p>
+            </div>
+
+            <div class="img-wrapper" data-aos="fade-up" data-aos-duration="2400" data-aos-easing="ease-out-back">
+              <img src="/assets/img/ostron_marennes.webp" alt="Ostron" width="300" height="300" style="aspect-ratio: 1 / 1;">
+              <p class="bildtext ostron">Ostron med Röda Vinbär</p>
+            </div>
+          </div>
+          <p class="pil" data-aos="fade-right" data-aos-duration="2800" data-aos-easing="ease-in-sine"><small><a href="https://se.pinterest.com/mirimalprojects/case-livs-%C3%B6lbar-matsal/" title="bilder om LIVS på Pinterest"> se fler bilder</a></small></p>
+        </div>
+   
+    </section>
+
+    <section class="section">
+    <div class="section-header" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
+      <h2>FÖLJ</h2>
+    </div>
+    <div class="section-content social">
+      <article class="grid-item">
+        <div class="item-meta">
+          <div class="role" data-aos="fade-right" data-aos-duration="1300" data-aos-easing="ease-in-sine">
+             <a href="https://www.instagram.com/mirimalprojects/" class="icon" id="instagram" title="Instagram" aria-label="Besök min Instagram"></a>
+          </div>
+        </div>
+      </article>
+      
+      <article class="grid-item">
+        <div class="item-meta">
+          <div class="role" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="ease-in-sine">
+              <a href="https://www.linkedin.com/in/miriam-bensafiddine/" class="icon" id="linkedin" title="Linkedin" aria-label="Besök min Linkedin"></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="grid-item">
+        <div class="item-meta">
+          <div class="role" data-aos="fade-right"  data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-back">
+           <a href="https://se.pinterest.com/mirimalprojects/" class="icon" id="pinterest" title="Pinterest" aria-label="Besök min Pinterest"></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <section class="section" id="contact">
+    <div class="section-header" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">
+      <h2>Kontakt</h2>
+    </div>
+    <div class="section-content">
+      <article class="grid-item" id="kontakt">
+        <div class="item-meta">
+        
+        
+
+<div data-fs-success>Tack för ditt meddelande! Jag återkommer så snart som möjligt.</div>
+<div data-fs-error>Oj, något gick fel. Kontrollera dina uppgifter och försök igen.</div>
+
+<form id="my-form" action="https://formspree.io/f/xojzoydw" method="POST">
+ <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back" class="form-group">
+  <label for="email">E-post</label>
+  <input type="email" id="email" name="email" required data-fs-field />
+  <span data-fs-error="email"></span>
+
+  <label for="message">Meddelande</label>
+  <textarea id="message" name="message" required data-fs-field></textarea>
+  <span data-fs-error="message"></span>
+ </div>
+  <button type="submit" data-fs-submit-btn>Skicka</button>
+</form>
+</div>
+</article>
+</div>
+</section>
+</main> 
+
+<footer class="site-footer">
+  <canvas id="footer-wave" resize="true"></canvas>
+  <div class="footer-content">
+    <p>© 2026 Miriam Bensafiddine. All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="cookie-overlay" class="cookie-hidden">
+  <div class="cookie-modal">
+    <h3>Vi värnar om din integritet</h3>
+    <p>Vi använder cookies för att webbplatsen ska fungera optimalt och för att samla in anonymiserad statistik. Du kan själv välja vilka typer av cookies du vill tillåta. Läs mer i vår <a href="villkor/integritetspolicy_privacy-policy.txt">Integritetspolicy</a>, <a href="villkor/anvandarvillkor_terms-of-use.txt">Användarvillkor</a> och <a href="villkor/cookie-policy.txt">Cookie-policy</a>.</p>
+    
+    <div class="cookie-options">
+      <div class="cookie-option">
+        <label>
+          <input type="checkbox" checked disabled> 
+          <span>Nödvändiga (Krävs för att sidan ska fungera)</span>
+        </label>
+      </div>
+      <div class="cookie-option">
+        <label>
+          <input type="checkbox" id="cookie-analytics"> 
+          <span>Analys & Prestanda (Google Analytics)</span>
+        </label>
+      </div>
+      <div class="cookie-option">
+        <label>
+          <input type="checkbox" id="cookie-youtube"> 
+          <span>Tredjepart (Inbäddade YouTube-klipp)</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="cookie-buttons">
+      <button id="cookie-accept-all" class="btn-primary">Godkänn alla</button>
+      <button id="cookie-save-prefs" class="btn-secondary">Spara mina val</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.getElementById("cookie-overlay");
+  const btnAcceptAll = document.getElementById("cookie-accept-all");
+  const btnSavePrefs = document.getElementById("cookie-save-prefs");
+  const cbAnalytics = document.getElementById("cookie-analytics");
+  const cbYoutube = document.getElementById("cookie-youtube");
+
+  const cookieConsent = localStorage.getItem("userCookieConsent");
+
+  if (!cookieConsent) {
+    overlay.classList.remove("cookie-hidden");
+  } else {
+    const consentObj = JSON.parse(cookieConsent);
+    applyConsent(consentObj);
+  }
+
+  function saveConsent(analytics, youtube) {
+    const consentObj = {
+      necessary: true,
+      analytics: analytics,
+      youtube: youtube
+    };
+    localStorage.setItem("userCookieConsent", JSON.stringify(consentObj));
+    overlay.classList.add("cookie-hidden");
+    applyConsent(consentObj);
+  }
+
+  btnAcceptAll.addEventListener("click", () => saveConsent(true, true));
+  btnSavePrefs.addEventListener("click", () => saveConsent(cbAnalytics.checked, cbYoutube.checked));
+
+  function applyConsent(consentObj) {
+    if (consentObj.analytics) {
+      console.log("Analytics godkänt - Ladda Google Analytics skript här");
+    }
+    if (consentObj.youtube) {
+      console.log("YouTube godkänt - Tillåt inbäddningar att ladda");
+    }
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js"></script>
+<script type="text/paperscript" canvas="footer-wave">
+  var values = {
+    friction: 0.8,
+    timeStep: 0.01,
+    amount: 15,
+    mass: 2,
+    count: 0
+  };
+  values.invMass = 1 / values.mass;
+
+  var path, springs;
+  var size = view.size * [1.2, 1];
+
+  var Spring = function(a, b, strength, restLength) {
+    this.a = a;
+    this.b = b;
+    this.restLength = restLength || 80;
+    this.strength = strength ? strength : 0.55;
+    this.mamb = values.invMass * values.invMass;
+  };
+
+  Spring.prototype.update = function() {
+    var delta = this.b - this.a;
+    var dist = delta.length;
+    var normDistStrength = (dist - this.restLength) /
+            (dist * this.mamb) * this.strength;
+    delta.y *= normDistStrength * values.invMass * 0.2;
+    if (!this.a.fixed)
+        this.a.y += delta.y;
+    if (!this.b.fixed)
+        this.b.y -= delta.y;
+  };
+
+  function createPath(strength) {
+    var path = new Path({ fillColor: '#171616' });
+    springs = [];
+    for (var i = 0; i <= values.amount; i++) {
+        var segment = path.add(new Point(i / values.amount, 0.5) * size);
+        var point = segment.point;
+        if (i == 0 || i == values.amount)
+            point.y += size.height;
+        point.px = point.x;
+        point.py = point.y;
+        point.fixed = i < 2 || i > values.amount - 2;
+        if (i > 0) {
+            var spring = new Spring(segment.previous.point, point, strength);
+            springs.push(spring);
+        }
+    }
+    path.position.x -= size.width / 4;
+    return path;
+  }
+
+  function onResize() {
+    if (path) path.remove();
+    size = view.bounds.size * [2, 1];
+    path = createPath(0.1);
+  }
+
+  function onMouseMove(event) {
+    var location = path.getNearestLocation(event.point);
+    var segment = location.segment;
+    var point = segment.point;
+
+    if (!point.fixed && location.distance < size.height / 4) {
+        var y = event.point.y;
+        point.y += (y - point.y) / 6;
+        if (segment.previous && !segment.previous.fixed) {
+            var previous = segment.previous.point;
+            previous.y += (y - previous.y) / 24;
+        }
+        if (segment.next && !segment.next.fixed) {
+            var next = segment.next.point;
+            next.y += (y - next.y) / 24;
+        }
+    }
+  }
+
+  function onFrame(event) {
+    var force = 1 - values.friction * values.timeStep * values.timeStep;
+    for (var i = 0, l = path.segments.length; i < l; i++) {
+        var point = path.segments[i].point;
+        var dy = (point.y - point.py) * force;
+        point.py = point.y;
+        point.y = Math.max(point.y + dy, 0);
+    }
+    for (var j = 0, l = springs.length; j < l; j++) {
+        springs[j].update();
+    }
+    path.smooth({ type: 'continuous' });
+  }
+</script>
+
+
+
+<script>
+// Hanterar alla video-element smidigt utan hårdkodade ID:n
+document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+  const video = wrapper.querySelector('video');
+  const playBtn = wrapper.querySelector('.play-btn');
+
+  if (video) {
+    // Play on hover
+    video.addEventListener("mouseenter", () => video.play());
+    
+    // Pause & reset on mouseleave
+    video.addEventListener("mouseleave", () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+
+    // Fallback play-knapp för touch
+    if (playBtn) {
+      playBtn.addEventListener("click", () => {
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }
+  }
+});
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();
+AOS.init({
+easing: 'ease-in-out',
+disable: false,
+once: false });
+</script>
+<!-- ... other scripts ... -->
+ <script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#my-form', formId: 'xojzoydw' });
+</script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/webgl-image-hover.js"></script>
+</body>
+</html>
