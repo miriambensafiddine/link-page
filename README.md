@@ -28,4 +28,4 @@ A passionate Creative Developer / Frontend Developer from Stockholm. I love buil
 
 ### 📝 License
 The code and design structure of this repository are licensed under the **MIT License**.  
-*Note: All personal assets, including photographs, logos, and biographical text, are Copyright (c) 2026 Miriam Benafiddine. All rights reserved.*
+*Note: All personal assets, including photographs, logos, and biographical text, are Copyright (c) 2026 Miriam Bensafiddine. All rights reserved.*
